@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-fluid{
+    width: 100%;
+}
+.lh-sm{
+    line-height: 1;
+}
+.lh-lg{
+    line-height: 1.4;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.border-light{
+    border: 1px solid #E6E6E6;
+}
+.border-green{
+    border: 1px solid green;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.w-100{ width:100%}
+.w-75{ width:75%}
+.w-50{ width:50%}
+.w-25{ width:25%}
+.fit{
+    width: fit-content;
+}
+.text-muted{
+    color: #666666;
+    font-size: 0.8rem;
+}
+.py-1{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+hr{
+    height: 0.5px;
+    background-color: #666666;
+    border: none;
+}
+.menu-btns{
+    padding-right: 5%;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+.search{ border : 1px solid #666; border-radius: 10px; overflow: hidden;}
+.search i{ width: 5%;}
+.search input{
+    width:75%;
+    border: none;
+}
+.search button{
+    width:20%;
+    background-color: green;
+    color: white;
+    border:none;
+    padding: 1.5% 2%;
+}
+.search *{
+    display: block;
+}
+.align-center{
+    align-items: center;
+}
+.bag{
+    width:3%;
+    aspect-ratio: 1/1;
+}
+.bag i{
+    left: 0;
+    bottom: 0;
+}
+.bag div{
+    right: 0;
+    top: 0;
+}
