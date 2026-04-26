@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    perspective: 600px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.py-3{
+    padding: 3% 0;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* #my-div{
+    width:30%;
+    background-color: red;
+    aspect-ratio: 1/1; */
+    /* transition: width 3s ,border-radius 5s; */
+    /* transition: all 2s;
+}
+#my-div:hover{ */
+    /* width: 50%;
+    border-radius: 50%;
+    background-color: black; */
+    /* transform: scale(2);
+    transform-origin: top; */
+    /* transform: translateY(250px); */
+    /* transform: skewY(25deg) scale(2); */
+    /* transform: rotateY(60deg);
+} */
+
+/* #sec{
+    width: 30%;
+    background-color: blueviolet;
+    aspect-ratio: 1/1;
+} */
+
+/* #card{
+    width: 30%;
+    background-color: aquamarine;
+    aspect-ratio: 1/1;
+    position: relative;
+}
+#front{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    position: absolute;
+    top:0;
+    transition: all 2s;
+    backface-visibility: hidden;
+    z-index:2;
+}
+#back{
+    width: 100%;
+    height: 100%;
+    background-color: burlywood;
+    position: absolute;
+    top:0;
+        transition: all 2s;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+#card:hover #front{
+    transform: rotateY(180deg);
+}
+#card:hover #back{
+    transform: rotateY(0deg);
+} */
+
+#m{
+    width: 10%;
+    aspect-ratio: 1/1;
+    background-color: blanchedalmond;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    animation-direction: alternate;
+}
+@keyframes move {
+    /* 0%{
+        margin-left: 0;
+    }
+    50%{
+        margin-left: 50%;
+    }
+    100%{
+        margin-left: 0;
+    } */
+    from{
+        margin-left: 0;
+    }
+    to{
+        margin-left: 50%;
+    }
+}
