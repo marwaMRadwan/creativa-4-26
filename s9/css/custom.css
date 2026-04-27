@@ -1,0 +1,11 @@
+*{
+      font-family: "Raleway", sans-serif;
+}
+.nav-brand{
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.75rem;
+}
+.rtl{
+    direction: rtl;
+}
